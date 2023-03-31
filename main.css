@@ -1,0 +1,100 @@
+/*Variables*/
+body {
+  color: hsl(218deg, 22%, 67%);
+  font-family: "Karla", sans-serif;
+  background-color: hsl(204deg, 43%, 93%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body h1, body h2, body h3, body p {
+  margin: 0;
+}
+body main {
+  width: 33%;
+  min-width: 320px;
+  max-width: 400px;
+  padding: 2rem;
+  line-height: 1.5;
+}
+body main #join {
+  padding: 1.5rem;
+  background-color: white;
+}
+body main #join h1 {
+  color: hsl(179deg, 62%, 43%);
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+body main #join h2 {
+  color: hsl(71deg, 73%, 54%);
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 1.5rem 0;
+}
+body main #join p {
+  font-size: 0.9rem;
+  line-height: 1.7rem;
+}
+body main #subscription {
+  padding: 1.5rem;
+  background-color: hsl(179deg, 62%, 43%);
+  color: white;
+}
+body main #subscription h2 {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+body main #subscription h3 {
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+body main #subscription h3 span {
+  font-weight: 400;
+  font-size: 1rem;
+  color: hsl(204deg, 43%, 93%);
+  margin-left: 1rem;
+}
+body main #subscription button {
+  background-color: hsl(71deg, 73%, 54%);
+  padding: 1rem 3rem;
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  width: 100%;
+  cursor: pointer;
+}
+body main #about {
+  padding: 1.5rem;
+  background-color: hsla(179deg, 62%, 43%, 0.7);
+  color: white;
+}
+body main #about h2 {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+body main #about ul {
+  color: hsl(204deg, 43%, 93%);
+  font-size: 0.9rem;
+}
+
+@media (min-width: 768px) {
+  body main {
+    min-width: 600px;
+  }
+  .flex-group {
+    display: flex;
+    width: 100%;
+  }
+  .flex-group #subscription {
+    flex: 1;
+  }
+  .flex-group #about {
+    flex: 1;
+  }
+}/*# sourceMappingURL=main.css.map */
